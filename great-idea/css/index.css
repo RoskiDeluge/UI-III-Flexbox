@@ -152,18 +152,29 @@ hr {
 ul {
 	list-style-type: square;
 	margin-left: 30px;
+	margin-top: 10px;
 }
 
 button {
 	font-family: inherit;
-	padding: 10px 20px;
+	padding: 10px 40px;
 	margin-top: 15px;
 	border-radius: 5px;
+	border: 1px solid black;
 }
 
 .main_content {
 	display: flex;
 	flex-direction: column;
+}
+
+.main_content h1 {
+	font-size: 32px;
+	margin-top: 10px;
+}
+
+.main_content p {
+	margin-bottom: 10px;
 }
 
 .services {
@@ -172,18 +183,18 @@ button {
 }
 
 .services_content {
-	width: 300px;
+	width: 500px;
 	margin: 20px;
 	border: 1px solid black;
-	padding: 100px 25px;
+	padding: 50px 25px;
 	background-color: #F4F3F4;
 }
 
 .facts {
 	display: flex;
-	justify-content: space-between;
 }
 
 .facts_content {
 	width: 400px;
+	margin: 30px;
 }
