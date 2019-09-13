@@ -91,6 +91,7 @@ nav a {
 
 hr {
 	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .logo {
@@ -102,6 +103,8 @@ hr {
 	border: 1px solid black;
 	text-align: center;
 	padding: 10px;
+	width: 150px;
+	margin: auto;
 }
 
 .title_1 {
@@ -119,6 +122,11 @@ hr {
 
 .main_text h1 {
 	font-size: 75px;
+}
+
+.middle-img {
+	width: 100%;
+	margin-left: 20px;
 }
 
 .content_1 {
@@ -166,6 +174,8 @@ button {
 .main_content {
 	display: flex;
 	flex-direction: column;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .main_content h1 {
@@ -183,7 +193,7 @@ button {
 }
 
 .services_content {
-	width: 500px;
+	width: 525px;
 	margin: 20px;
 	border: 1px solid black;
 	padding: 50px 25px;
